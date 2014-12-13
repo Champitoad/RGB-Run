@@ -1,0 +1,52 @@
+<patterns>
+    <easy>
+        <pattern adaptive="true" width="5">
+            <platform pos="2;0" size="1;1" color="black"/>
+        </pattern>
+        <pattern adaptive="true" width="16">
+            <platform pos="4;0" size="2;2" color="gray"/>
+            <platform pos="12;0" size="2;2" color="gray"/>
+        </pattern>
+        <pattern adaptive="true" width="8">
+            <laser p1="4;0" p2="4;12" color="red"/>
+        </pattern>
+    </easy>
+    <medium>
+        <pattern adaptive="true" width="16">
+            <platform pos="4;0" size="2;2" color="gray"/>
+            <laser p1="12;0" p2="12;12" color="green"/>
+        </pattern>
+        <pattern adaptive="true" width="22">
+            <platform pos="2;0" size="18;12" color="red"/>
+            <laser p1="11;0" p2="11;12" color="green"/>
+        </pattern>
+        <pattern adaptive="true" width="16">
+            <platform pos="3;0" size="2;2" color="green"/>
+            <platform pos="5;0" size="6;0.5" color="black"/>
+            <platform pos="11;0" size="2;2" color="green"/>
+        </pattern>
+    </medium>
+    <hard>
+        <pattern adaptive="true" width="28">
+            <platform pos="4;0" size="20;0.5" color="black"/>
+            <platform pos="4;2" size="8.5;1" color="red"/>
+            <laser p1="14;0.5" p2="14;12" color="green"/>
+            <platform pos="15.5;2" size="8.5;1" color="blue"/>
+        </pattern>
+        <pattern adaptive="true" width="28">
+            <platform pos="4;0" size="20;0.5" color="black"/>
+            <platform pos="4;2" size="6;1" color="red"/>
+            <platform pos="10;4" size="6;1" color="green"/>
+            <platform pos="16;6" size="6;1" color="blue"/>
+            <laser p1="24;0" p2="24;12" color="red"/>
+        </pattern>
+        <pattern adaptive="true" width="29">
+            <platform pos="2;3" size="25;10" color="gray"/>
+            <platform pos="2;0" size="1;1" color="blue"/>
+            <platform pos="8;0" size="1;1" color="red"/>
+            <platform pos="14;0" size="1;1" color="green"/>
+            <platform pos="20;0" size="1;1" color="blue"/>
+            <platform pos="26;0" size="1;1" color="red"/>
+        </pattern>
+    </hard>
+</patterns>
